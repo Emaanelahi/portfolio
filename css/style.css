@@ -80,6 +80,7 @@ section{
 }
 
 
+
 main{
     background-color: #1F2833;
    
@@ -192,11 +193,6 @@ article{
     color: #454D66 !important; 
 }
 
-.right-empty {
-  background-color: transparent;
-  border-left: 1px solid #454D66; 
-  height: 80%; 
-}
 
 .text-slide-blur2 {
     -webkit-animation: text-slide-blur2 1.5s ease-in-out both;
@@ -283,6 +279,7 @@ article{
 .el{
    display: flex;
    justify-content: space-evenly;
+   margin-bottom: 50px;
 }
  
 .ellipse {
@@ -318,13 +315,7 @@ article{
         background-color: #006192;
 }
 
-.line{
-        width: 490px;
-        height: 1.5px;
-        background-color:  rgb(159, 158, 158); 
-        margin-left: 75px;
-        margin-top: -35px;
-}
+
 
 .modal-content{
         background-color: #000000;
@@ -397,6 +388,50 @@ article{
   }
 }
 
+.height{
+  height: 321px;
+
+}
+
+.height{
+    height: 325px;
+}
+
+.n{
+
+  margin-top: 80px;
+
+}
+
+.f{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pro{
+  width: 370px;
+  height: 150px;
+  background-image: url("../images/GP.png");
+  background-size: cover;
+  transition: 0.5s;
+  
+}
+
+.pro2{
+  width: 370px;
+  height: 150px;
+  background-image: url("../images/en.png");
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.pro:hover, .pro2:hover{
+
+  transform: scale(1.1);
+
+}
 
 /* EXISTING STYLES — no changes */
 
